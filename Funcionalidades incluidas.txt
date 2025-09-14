@@ -1,0 +1,17 @@
+Funcionalidades incluídas:
+
+1 - CRUD completo (listar, criar, editar, excluir)
+
+2 - Loader animado durante fetch ou envio de dados
+
+3 - Notificações de sucesso/erro
+
+4 - Pesquisa de itens em Home
+
+5 - Layout responsivo (1, 2 ou 3 colunas)
+
+6 - Componentes reutilizáveis (Button, Loader, Notification)
+
+7 - Formulários acessíveis (labels + placeholders)
+
+8 - Redirecionamento automático após criar/editar

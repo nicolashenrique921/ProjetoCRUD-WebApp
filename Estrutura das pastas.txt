@@ -1,0 +1,27 @@
+ Estrutura das pastas
+ 
+my-crud-app/
+│
+├─ src/
+│   ├─ api/
+│   │   └─ api.ts           # Configuração do Axios
+│   │
+│   ├─ components/
+│   │   ├─ Button.tsx       # Botão reutilizável
+│   │   ├─ Loader.tsx       # Loader animado
+│   │   └─ Notification.tsx # Notificação de sucesso/erro
+│   │
+│   ├─ pages/
+│   │   ├─ Home.tsx
+│   │   ├─ CreateItem.tsx
+│   │   └─ EditItem.tsx
+│   │
+│   ├─ types/
+│   │   └─ Item.ts          # Interface Item
+│   │
+│   ├─ App.tsx              # Rotas principais
+│   └─ index.tsx            # Entry point React
+│
+├─ index.html
+├─ package.json
+└─ tailwind.config.js
