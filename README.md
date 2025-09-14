@@ -1,102 +1,86 @@
-Aplicação web construída com React + TypeScript + TailwindCSS + Vite, demonstrando habilidades em frontend, backend (mock API) e integração de ferramentas.
-Permite criar, visualizar, editar e excluir itens de forma simples, responsiva e com feedback visual ao usuário.
+# 📝 My CRUD App
 
-🛠 Tecnologias utilizadas
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/) 
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue)](https://www.typescriptlang.org/) 
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.3-blue)](https://tailwindcss.com/) 
+[![Vite](https://img.shields.io/badge/Vite-4.4.9-blue)](https://vitejs.dev/) 
 
-React – biblioteca para construção de interfaces
+Uma aplicação web CRUD construída com **React + TypeScript + TailwindCSS + Vite**, demonstrando habilidades em **frontend, backend (mock API) e integração de ferramentas**.
 
-TypeScript – tipagem estática para maior segurança no código
+---
 
-Vite – bundler moderno, rápido e eficiente
+## 🔥 Funcionalidades
 
-TailwindCSS – framework CSS utilitário para layout responsivo
+### CRUD completo
+- **Create:** Formulário para adicionar novos itens (`name`, `description`).  
+- **Read:** Lista de itens exibindo nome e descrição.  
+- **Update:** Editar itens existentes.  
+- **Delete:** Excluir itens com confirmação visual via notificação.
 
-Axios – para comunicação com a API
+### Feedback ao usuário
+- **Loader animado:** Exibe carregamento durante fetch ou envio de dados.  
+- **Notificações:** Mensagens de sucesso ou erro ao criar, editar ou excluir itens.
 
-React Router Dom – navegação entre páginas
+### Navegação
+- **React Router Dom** para transição entre páginas:
+  - `/` → Lista de itens (Home)  
+  - `/create` → Criar item  
+  - `/edit/:id` → Editar item
 
-JSON Server – mock API para backend simulado
+### Layout e Responsividade
+- Layout baseado em **TailwindCSS**:  
+  - Grid responsivo (1 coluna mobile / 2 colunas desktop)  
+  - Botões estilizados com cores e hover  
+  - Layout centralizado com `max-w`  
 
-PostCSS + Autoprefixer – para compatibilidade CSS
+### Código modular e organizado
+- **Components**: Button, Loader, Notification  
+- **Pages**: Home, CreateItem, EditItem  
+- **API**: Axios configurado para comunicação com backend  
+- **Types**: Tipagem para os itens (`Item.ts`)  
 
-🚀 Funcionalidades
-CRUD completo
+### Acessibilidade
+- Formulários com **labels e placeholders** para melhor experiência e acessibilidade.  
 
-Create: Formulário para adicionar novos itens (name, description).
+---
 
-Read: Lista de itens com layout responsivo, exibindo nome e descrição.
+## ⚡ Tecnologias Utilizadas
+- React  
+- TypeScript  
+- Vite  
+- TailwindCSS  
+- Axios  
+- React Router Dom  
+- JSON Server (mock API)  
+- PostCSS + Autoprefixer  
 
-Update: Editar informações de itens existentes.
+---
 
-Delete: Excluir itens com confirmação visual via notificação.
+## 🚀 Como rodar o projeto
 
-Feedback ao usuário
+1. **Clonar repositório**  
 
-Loader animado: Exibe carregamento durante fetch ou envio de dados.
-
-Notificações: Mensagens de sucesso ou erro ao criar, editar ou excluir itens.
-
-Navegação
-
-Uso do React Router para transição entre páginas:
-
-/ → Lista de itens (Home)
-
-/create → Criar item
-
-/edit/:id → Editar item
-
-Layout e Responsividade
-
-Layout baseado em TailwindCSS:
-
-Grid responsivo para exibir itens (1 coluna mobile / 2 colunas desktop)
-
-Botões estilizados com cores e hover
-
-Layout centralizado com max-w para melhor visualização
-
-Código modular e organizado
-
-Components: Button, Loader, Notification
-
-Pages: Home, CreateItem, EditItem
-
-API: axios configurado para comunicação com backend
-
-Types: Tipagem para os itens (Item.ts)
-
-Acessibilidade
-
-Formulários com labels e placeholders para melhor experiência e acessibilidade.
-
-⚡ Como rodar o projeto
-
-Clonar repositório
-
+``bash
 git clone <link-do-repo>
 cd my-crud-app
-
-
 Instalar dependências
 
+bash
+Copiar código
 npm install
-
-
 Rodar mock API
 
+bash
+Copiar código
 json-server --watch db.json --port 3000
-
-
 Rodar frontend
 
+bash
+Copiar código
 npm run dev
-
-
 Acesse a aplicação: http://localhost:5173
 
 💡 Melhorias futuras
-
 Autenticação de usuário
 
 Pesquisa e filtros avançados
@@ -105,4 +89,15 @@ Paginação de itens
 
 Conexão com backend real (Node.js / Spring Boot / Firebase)
 
-Testes unitários e integração
+Testes unitários e de integração
+
+🖼️ Imagens do projeto
+Home Page
+
+Criar Item
+
+Editar Item
+
+Notificações e Loader
+
+Desenvolvido por Nicolas Henrique Oliveira
